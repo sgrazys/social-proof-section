@@ -1,0 +1,32 @@
+:root {
+	/* COLORS */
+
+	/* Primary */
+	--color-primary: hsl(333, 80%, 67%);
+	--color-primary-dark: hsl(300, 43%, 22%);
+	/* Neutral */
+	--color-white: #ffffff;
+	--color-light: #f7f2f7;
+	--color-dark: #937b92;
+
+	/* FONT */
+	--font-primary: 'League Spartan', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+body,
+body *,
+body *::after,
+body *::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--font-primary);
+	font-size: 1.5rem;
+}
