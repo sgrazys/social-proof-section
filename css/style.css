@@ -1,3 +1,5 @@
+@import './components/rating.css';
+
 :root {
 	/* COLORS */
 
@@ -29,6 +31,7 @@ body *::before {
 body {
 	font-family: var(--font-primary);
 	font-size: 1.5rem;
+	color: var(--color-dark);
 }
 
 .social-proof-section {
@@ -38,30 +41,41 @@ body {
 
 .header {
 	display: flex;
-	border: solid 2px red;
+	flex-direction: column;
+	align-items: center;
+	/* border: solid 2px red; */
 }
 
 .message {
+	text-align: center;
 }
 
 .heading {
+	font-size: 4rem;
+	color: var(--color-primary-dark);
+	letter-spacing: -1.43px;
+	line-height: 3.2rem;
+
+	margin-bottom: 1.7rem;
 }
 
 .content {
+	font-size: 1.9rem;
+	line-height: 2.5rem;
+	letter-spacing: -0.63px;
+	margin-bottom: 3.9rem;
 }
 
 .ratings {
-}
-
-.list {
-}
-
-.list-item {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+	width: 100%;
 }
 
 .testimonials {
 	display: flex;
-	border: solid 2px green;
+	/* border: solid 2px green; */
 }
 
 .card {
