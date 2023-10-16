@@ -1,4 +1,5 @@
-@import './components/rating.css';
+@import './components/rating_card.css';
+@import './components/testimonial-card.css';
 
 :root {
 	/* COLORS */
@@ -55,7 +56,6 @@ body {
 	color: var(--color-primary-dark);
 	letter-spacing: -1.43px;
 	line-height: 3.2rem;
-
 	margin-bottom: 1.7rem;
 }
 
@@ -75,8 +75,6 @@ body {
 
 .testimonials {
 	display: flex;
-	/* border: solid 2px green; */
-}
-
-.card {
+	flex-direction: column;
+	gap: 1.6rem;
 }
