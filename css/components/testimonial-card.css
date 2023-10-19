@@ -38,3 +38,16 @@
 	line-height: 2.2rem;
 	color: var(--color-white);
 }
+
+@media (min-width: 1300px) {
+	.testimonials > .card {
+		max-width: 35rem;
+		height: 23.4rem;
+	}
+	.testimonials > .card-2 {
+		align-self: center;
+	}
+	.testimonials > .card-3 {
+		align-self: flex-end;
+	}
+}
