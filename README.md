@@ -1,91 +1,211 @@
-# Frontend Mentor - Social proof section
+<a name="readme-top"></a>
 
-![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Welcome! 👋
+<!-- PROJECT LOGO -->
+<br />
+<!-- <div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-Thanks for checking out this front-end coding challenge.
+<h3 align="center">Frontend Mentor | Social Proof Section</h3>
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+  <p align="center">
+    This is a solution to the <strong><a href='https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA'>Social proof section challenge</a> </strong>on Frontend Mentor.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+<br />
+<a href="https://github.com/sgrazys/social-proof-section"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+<a href="https://sgrazys.github.io/social-proof-section/">DEMO</a>
+<!-- ·
+<a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+·
+<a href="https://github.com/github_username/repo_name/issues">Request Feature</a> -->
 
-## The challenge
+  </p>
+</div>
 
-Your challenge is to build out this social proof section and get it looking as close to the design as possible.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#overview">Overview</a>
+      <ul><li><a href="#challenge">Challenge</a></li></ul>
+      <ul><li><a href="#solution-screenshot">Solution screenshot</a></li></ul>
+      <ul><li><a href="#links">Links</a></li></ul>
+      <ul><li><a href="#built-with">Built With</a></li></ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#launch-locally">Launch locally</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+<!-- ABOUT THE PROJECT -->
 
-Your users should be able to:
+## Overview
 
-- View the optimal layout for the section depending on their device's screen size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Challenge
 
-## Where to find everything
+-   View the optimal layout for the section depending on their device's screen size
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Solution screenshot
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+![Social Proof Section ][product-screenshot]
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Links
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+-   Solution URL: [https://github.com/sgrazys/social-proof-section](https://github.com/sgrazys/social-proof-section)
+-   Live Site URL: [https://sgrazys.github.io/social-proof-section/](https://sgrazys.github.io/social-proof-section/)
 
-## Building your project
+### Built With
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+![HTML][HTML]
+![CSS3][CSS3]
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+-   Flexbox
+-   Mobile-first workflow
 
-## Deploying your project
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+<!-- GETTING STARTED -->
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+## Getting Started
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+<br />
 
-## Create a custom `README.md`
+### Prerequisites
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+Node.js - _download and install_
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+```
+https://nodejs.org
+```
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Git - _download and install_
 
-## Submitting your solution
+```
+https://git-scm.com
+```
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+This is an example of how to list things you need to use the software and how to install them.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+-   npm
 
-## Sharing your solution
+    ```sh
+    npm install npm@latest -g
+    ```
 
-There are multiple places you can share your solution:
+<br />
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+### Launch locally
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+Would like to run this project locally? Open terminal and follow these steps:
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+1. Clone the repo
+    ```sh
+    git clone https://github.com/sgrazys/social-proof-section.git
+    ```
+2. Install NPM packages
+    ```
+    npm i
+    ```
+    or
+    ```
+    npm install
+    ```
+3. Run the development server
+    ```
+    npm start
+    ```
 
-## Got feedback for us?
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+<!-- USAGE EXAMPLES -->
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+<!-- ## Usage
 
-**Have fun building!** 🚀
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Saulius Grazys
+
+[![Gmail][Gmail]][Gmail-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+Project Link: [https://sgrazys.github.io/social-proof-section/](https://sgrazys.github.io/social-proof-section/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/sgrazys/to-do-list.svg?style=for-the-badge
+[license-url]: https://github.com/sgrazys/to-do-list/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/saulius-grazys/
+[product-screenshot]: ./design/social-proof.png
+
+<!--  -->
+
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[Sass-url]: https://sass-lang.com/
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com
+
+<!--  -->
+
+[Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Gmail-url]: mailto:s.grazys@gmail.com
